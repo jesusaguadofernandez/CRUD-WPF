@@ -1,0 +1,59 @@
+﻿<Page x:Class="CRUD_2T.paginaBorrar"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CRUD_2T"
+      mc:Ignorable="d" 
+      Title="paginaBorrar"
+      d:DesignHeight="568" d:DesignWidth="624"
+      Background="{StaticResource oscuro}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="13*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0">
+            <StackPanel Background="{StaticResource oscuro}" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Style="{StaticResource WindowButton}" Content="-" Click="MinimizeButton_Click"/>
+                <Button Style="{StaticResource WindowButton}" Content="X"  Click="CloseButton_Click"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal">
+                <Image Margin="80,0,20,0" Source="Styles/img/bd4Verde.png" Width="32" Height="32"/>
+                <TextBlock Margin="0,10,0,0" Text="BORRAR" Style="{StaticResource type1}" />
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="130,0,0,0" Grid.Row="1">
+            <StackPanel HorizontalAlignment="Left" Width="200"  Margin="0,10,0,0">
+                <TextBlock Style="{StaticResource type1min}" Text="Producto" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <TextBox Margin="0,10,0,10" Style="{StaticResource miTextBox}" Width="200" Height="30" Name="ProductTB"/>
+            </StackPanel>
+            <Button Margin="47,47,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Content="Borrar" Style="{StaticResource miBoton3}" Click="borrarProducto"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <StackPanel HorizontalAlignment="Right" Grid.Column="0"  Margin="0,10,0,0">
+                    <TextBlock Text="PRODUCTOS" Style="{StaticResource type1}" Margin="0,5,0,10"/>
+                    <ListBox x:Name="productsLB" Height="230" Width="230" Style="{StaticResource miListBox}"/>
+                </StackPanel>
+
+                <StackPanel HorizontalAlignment="Left" Grid.Column="1" Margin="0,10,0,0">
+                    <TextBlock Text="CATEGORÍA" Style="{StaticResource type1}" Margin="0,5,0,10"/>
+                    <ListBox x:Name="categoriesLB" Height="230" Width="230" Style="{StaticResource miListBox}"/>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+
+    </Grid>
+</Page>
+
