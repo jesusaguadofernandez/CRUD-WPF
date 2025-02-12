@@ -6,13 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace CRUD_2T
 {
@@ -23,7 +17,11 @@ namespace CRUD_2T
         {
             InitializeComponent();
             SQLClass.Instance.listaPrincipal(productsLB, categoriesLB);
+            productsLB.Loaded += (s, e) => SubscribeToScrollEvents(productsLB, categoriesLB);
+            categoriesLB.Loaded += (s, e) => SubscribeToScrollEvents(categoriesLB, productsLB);
         }
+
+
         private void MinimizeButton_Click(object sender, RoutedEventArgs e)
         {
             Window window = Window.GetWindow(this);
@@ -35,6 +33,44 @@ namespace CRUD_2T
             Application.Current.Shutdown();
         }
 
-        
+        //Scroll de ListBox simultáneo
+        private void SubscribeToScrollEvents(ListBox listBox, ListBox targetListBox)
+        {
+            var scrollViewer = GetScrollViewer(listBox);
+            if (scrollViewer != null)
+            {
+                scrollViewer.ScrollChanged += (s, e) => SyncScroll(targetListBox, e);
+            }
+        }
+
+        private void SyncScroll(ListBox targetListBox, ScrollChangedEventArgs e)
+        {
+            var targetScrollViewer = GetScrollViewer(targetListBox);
+            if (targetScrollViewer != null)
+            {
+                targetScrollViewer.ScrollToHorizontalOffset(e.HorizontalOffset);
+                targetScrollViewer.ScrollToVerticalOffset(e.VerticalOffset);
+            }
+        }
+
+        private ScrollViewer GetScrollViewer(DependencyObject depObj)
+        {
+            if (depObj is ScrollViewer scrollViewer)
+            {
+                return scrollViewer;
+            }
+
+            for (int i = 0; i < VisualTreeHelper.GetChildrenCount(depObj); i++)
+            {
+                var child = VisualTreeHelper.GetChild(depObj, i);
+                var result = GetScrollViewer(child);
+                if (result != null)
+                {
+                    return result;
+                }
+            }
+
+            return null;
+        }
     }
 }

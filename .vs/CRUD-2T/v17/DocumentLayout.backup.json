@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\jaguado\\source\\repos\\CRUD-2T\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B28634C1-DA6D-4F56-AE0A-7E0D12CE171E}|CRUD-2T\\CRUD-2T.csproj|c:\\users\\jaguado\\source\\repos\\crud-2t\\crud-2t\\paginaagregar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B28634C1-DA6D-4F56-AE0A-7E0D12CE171E}|CRUD-2T\\CRUD-2T.csproj|solutionrelative:crud-2t\\paginaagregar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B28634C1-DA6D-4F56-AE0A-7E0D12CE171E}|CRUD-2T\\CRUD-2T.csproj|c:\\users\\jaguado\\source\\repos\\crud-2t\\crud-2t\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B28634C1-DA6D-4F56-AE0A-7E0D12CE171E}|CRUD-2T\\CRUD-2T.csproj|solutionrelative:crud-2t\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B28634C1-DA6D-4F56-AE0A-7E0D12CE171E}|CRUD-2T\\CRUD-2T.csproj|c:\\users\\jaguado\\source\\repos\\crud-2t\\crud-2t\\paginaborrar.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{B28634C1-DA6D-4F56-AE0A-7E0D12CE171E}|CRUD-2T\\CRUD-2T.csproj|solutionrelative:crud-2t\\paginaborrar.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B28634C1-DA6D-4F56-AE0A-7E0D12CE171E}|CRUD-2T\\CRUD-2T.csproj|c:\\users\\jaguado\\source\\repos\\crud-2t\\crud-2t\\paginaborrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B28634C1-DA6D-4F56-AE0A-7E0D12CE171E}|CRUD-2T\\CRUD-2T.csproj|solutionrelative:crud-2t\\paginaborrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B28634C1-DA6D-4F56-AE0A-7E0D12CE171E}|CRUD-2T\\CRUD-2T.csproj|c:\\users\\jaguado\\source\\repos\\crud-2t\\crud-2t\\styles\\dictionary1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B28634C1-DA6D-4F56-AE0A-7E0D12CE171E}|CRUD-2T\\CRUD-2T.csproj|solutionrelative:crud-2t\\styles\\dictionary1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B28634C1-DA6D-4F56-AE0A-7E0D12CE171E}|CRUD-2T\\CRUD-2T.csproj|c:\\users\\jaguado\\source\\repos\\crud-2t\\crud-2t\\sqlclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B28634C1-DA6D-4F56-AE0A-7E0D12CE171E}|CRUD-2T\\CRUD-2T.csproj|solutionrelative:crud-2t\\sqlclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B28634C1-DA6D-4F56-AE0A-7E0D12CE171E}|CRUD-2T\\CRUD-2T.csproj|c:\\users\\jaguado\\source\\repos\\crud-2t\\crud-2t\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B28634C1-DA6D-4F56-AE0A-7E0D12CE171E}|CRUD-2T\\CRUD-2T.csproj|solutionrelative:crud-2t\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,65 +26,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "paginaAgregar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\jaguado\\source\\repos\\CRUD-2T\\CRUD-2T\\paginaAgregar.xaml.cs",
-              "RelativeDocumentMoniker": "CRUD-2T\\paginaAgregar.xaml.cs",
-              "ToolTip": "C:\\Users\\jaguado\\source\\repos\\CRUD-2T\\CRUD-2T\\paginaAgregar.xaml.cs",
-              "RelativeToolTip": "CRUD-2T\\paginaAgregar.xaml.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA5wCoAAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:47:17.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dictionary1.xaml",
-              "DocumentMoniker": "C:\\Users\\jaguado\\source\\repos\\CRUD-2T\\CRUD-2T\\Styles\\Dictionary1.xaml",
-              "RelativeDocumentMoniker": "CRUD-2T\\Styles\\Dictionary1.xaml",
-              "ToolTip": "C:\\Users\\jaguado\\source\\repos\\CRUD-2T\\CRUD-2T\\Styles\\Dictionary1.xaml",
-              "RelativeToolTip": "CRUD-2T\\Styles\\Dictionary1.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-28T18:46:19.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "paginaBorrar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\jaguado\\source\\repos\\CRUD-2T\\CRUD-2T\\paginaBorrar.xaml.cs",
-              "RelativeDocumentMoniker": "CRUD-2T\\paginaBorrar.xaml.cs",
-              "ToolTip": "C:\\Users\\jaguado\\source\\repos\\CRUD-2T\\CRUD-2T\\paginaBorrar.xaml.cs",
-              "RelativeToolTip": "CRUD-2T\\paginaBorrar.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:45:44.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "paginaBorrar.xaml",
-              "DocumentMoniker": "C:\\Users\\jaguado\\source\\repos\\CRUD-2T\\CRUD-2T\\paginaBorrar.xaml",
-              "RelativeDocumentMoniker": "CRUD-2T\\paginaBorrar.xaml",
-              "ToolTip": "C:\\Users\\jaguado\\source\\repos\\CRUD-2T\\CRUD-2T\\paginaBorrar.xaml",
-              "RelativeToolTip": "CRUD-2T\\paginaBorrar.xaml",
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\jaguado\\source\\repos\\CRUD-2T\\CRUD-2T\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "CRUD-2T\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\jaguado\\source\\repos\\CRUD-2T\\CRUD-2T\\MainWindow.xaml",
+              "RelativeToolTip": "CRUD-2T\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-28T18:43:29.044Z",
+              "WhenOpened": "2025-02-12T14:34:13.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SQLClass.cs",
-              "DocumentMoniker": "C:\\Users\\jaguado\\source\\repos\\CRUD-2T\\CRUD-2T\\SQLClass.cs",
-              "RelativeDocumentMoniker": "CRUD-2T\\SQLClass.cs",
-              "ToolTip": "C:\\Users\\jaguado\\source\\repos\\CRUD-2T\\CRUD-2T\\SQLClass.cs",
-              "RelativeToolTip": "CRUD-2T\\SQLClass.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAA6wBcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T15:22:15.725Z",
+              "DocumentIndex": 0,
+              "Title": "Window1.xaml",
+              "DocumentMoniker": "C:\\Users\\jaguado\\source\\repos\\CRUD-2T\\CRUD-2T\\Window1.xaml",
+              "RelativeDocumentMoniker": "CRUD-2T\\Window1.xaml",
+              "ToolTip": "C:\\Users\\jaguado\\source\\repos\\CRUD-2T\\CRUD-2T\\Window1.xaml",
+              "RelativeToolTip": "CRUD-2T\\Window1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T14:34:11.222Z",
               "EditorCaption": ""
             }
           ]
